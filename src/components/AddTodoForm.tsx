@@ -22,11 +22,11 @@ export function AddTodoForm({ onSubmit }: AddTodoFormProps) {
         value={input}
         onChange={(e) => setInput(e.target.value)}
         placeholder="What needs to be done?"
-        className="rounded-s-md grow border border-gray-400 p-2  bg-white me-0.5"
+        className="rounded-md grow border border-gray-400 p-2  bg-white me-1"
       />
       <button
         type="submit"
-        className="w-16 rounded-e-md bg-slate-900 text-white hover:bg-slate-700"
+        className="w-16 rounded-md bg-slate-900 text-white hover:bg-slate-700"
       >
         Add
       </button>
