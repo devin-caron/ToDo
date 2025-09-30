@@ -14,9 +14,9 @@ export default function SignupPage() {
   }
 
   return (
-    <main className="pointer-events-auto py-10 px-5 h-screen space-y-5 overflow-y-auto">
-      <h1 className="font-bold text-3xl text-center">ToDo Sign Up</h1>
-      <div className="flex flex-col max-w-lg mx-auto bg-slate-100 rounded-md p-5 space-y-2">
+    <main className="pointer-events-auto py-10 px-5 h-screen overflow-y-auto">
+      <div className="flex flex-col max-w-lg mx-auto bg-slate-100 rounded-md p-4 space-y-4">
+        <h1 className="font-bold text-3xl text-center p-2">ToDo Sign Up</h1>
         <form className="flex flex-col" onSubmit={handleSubmit}>
           <input
             value={input}
@@ -25,9 +25,15 @@ export default function SignupPage() {
             className="rounded-md grow border p-2 mb-2 border-gray-400 bg-white"
           />
           <input
-            value={input}
-            onChange={(e) => setInput(e.target.value)}
+            placeholder="Confirm Email"
+            className="rounded-md grow border p-2 mb-2 border-gray-400 bg-white"
+          />
+          <input
             placeholder="Password"
+            className="rounded-md grow border p-2 mb-2 border-gray-400 bg-white"
+          />
+          <input
+            placeholder="Confirm Password"
             className="rounded-md grow border p-2 mb-2 border-gray-400 bg-white"
           />
           <button

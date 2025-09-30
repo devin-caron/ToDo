@@ -8,17 +8,17 @@ export default function HomePage() {
     useTodos();
 
   return (
-    <main className="pointer-events-auto py-10 px-5 h-screen space-y-5 overflow-y-auto">
-      <h1 className="font-bold text-3xl text-center">Your ToDos</h1>
-      <div className="max-w-lg mx-auto bg-slate-100 rounded-md p-5 space-y-6">
+    <main className="pointer-events-auto py-10 px-5 h-screen overflow-y-auto">
+      <div className="flex flex-col max-w-lg mx-auto bg-slate-100 rounded-md p-4 space-y-4">
+        <h1 className="font-bold text-3xl text-center p-2">Your To Dos</h1>
         <AddTodoForm onSubmit={addTodo} />
         <TodoList
           todos={todos}
           onCompletedChange={setTodoCompleted}
           onDelete={deleteTodo}
         />
+        <TodoSummary todos={todos} deleteAllCompleted={deleteAllCompleted} />
       </div>
-      <TodoSummary todos={todos} deleteAllCompleted={deleteAllCompleted} />
     </main>
   );
 }

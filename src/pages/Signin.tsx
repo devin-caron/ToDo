@@ -14,9 +14,9 @@ export default function LoginPage() {
   }
 
   return (
-    <main className="pointer-events-auto py-10 px-5 h-screen space-y-5 overflow-y-auto">
-      <h1 className="font-bold text-3xl text-center">ToDo Sign In</h1>
-      <div className="flex flex-col max-w-lg mx-auto bg-slate-100 rounded-md p-5 space-y-2">
+    <main className="pointer-events-auto py-10 px-5 h-screen overflow-y-auto">
+      <div className="flex flex-col max-w-lg mx-auto bg-slate-100 rounded-md p-4 space-y-4">
+        <h1 className="font-bold text-3xl text-center p-2">ToDo Sign In</h1>
         <form className="flex flex-col" onSubmit={handleSubmit}>
           <input
             value={input}
