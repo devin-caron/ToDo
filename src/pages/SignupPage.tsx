@@ -14,9 +14,9 @@ export default function SignupPage() {
   }
 
   return (
-    <main className="pointer-events-auto py-10 px-5 h-screen overflow-y-auto">
-      <div className="flex flex-col max-w-lg mx-auto bg-slate-100 rounded-md p-4 space-y-4">
-        <h1 className="font-bold text-3xl text-center p-2">ToDo Sign Up</h1>
+    <main className="bg-gradient-to-br from-sky-100 to-slate-200 content-center pointer-events-auto py-10 px-5 h-screen overflow-y-auto">
+      <div className="flex flex-col max-w-md mx-auto bg-slate-50 shadow-xl rounded-md p-10 space-y-4">
+        <h1 className="font-bold text-3xl text-center p-2">ToDo Sign Out</h1>
         <form className="flex flex-col" onSubmit={handleSubmit}>
           <input
             value={input}
@@ -36,10 +36,7 @@ export default function SignupPage() {
             placeholder="Confirm Password"
             className="rounded-md grow border p-2 mb-2 border-gray-400 bg-white"
           />
-          <button
-            type="submit"
-            className="rounded-md grow p-2 bg-slate-900 text-white hover:bg-slate-700"
-          >
+          <button type="submit" className="btn grow p-2">
             Create Account
           </button>
         </form>

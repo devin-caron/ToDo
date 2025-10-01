@@ -6,3 +6,7 @@
     cursor: pointer;
   }
 }
+
+.btn {
+  @apply rounded-md bg-slate-900 text-white hover:bg-slate-700;
+}

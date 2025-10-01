@@ -8,9 +8,9 @@ export default function HomePage() {
     useTodos();
 
   return (
-    <main className="pointer-events-auto py-10 px-5 h-screen overflow-y-auto">
-      <div className="flex flex-col max-w-lg mx-auto bg-slate-100 rounded-md p-4 space-y-4">
-        <h1 className="font-bold text-3xl text-center p-2">Your To Dos</h1>
+    <main className="bg-gradient-to-br from-sky-100 to-slate-200 content-center pointer-events-auto py-10 px-5 h-screen overflow-y-auto">
+      <div className="flex flex-col max-w-md mx-auto bg-slate-50 shadow-xl rounded-md p-10 space-y-4">
+        <h1 className="font-bold text-3xl text-center p-2">Your ToDos</h1>
         <AddTodoForm onSubmit={addTodo} />
         <TodoList
           todos={todos}
