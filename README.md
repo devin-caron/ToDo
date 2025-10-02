@@ -1,7 +1,10 @@
 Todo List application using React TypeScript and Tailwind CSS</br>
 (Currently working on a backend in ASP.NET Core)
 
-<img width="412" height="389" alt="image" src="https://github.com/user-attachments/assets/01dc02db-b061-4484-9ce2-75cef3d99bc8" />
-<img width="412" height="391" alt="image" src="https://github.com/user-attachments/assets/abbe4044-2a27-4e1f-ab7b-7bd340a2fc12" />
-<img width="412" height="386" alt="image" src="https://github.com/user-attachments/assets/d629cf7d-a7c0-4c43-b945-222ee3d49755" />
+<img width="412" height="451" alt="image" src="https://github.com/user-attachments/assets/bfd3ebef-4d06-43c5-a1ae-8dce29bdfdf2" />
+
+
+<img width="412" height="459" alt="image" src="https://github.com/user-attachments/assets/c1bb8422-4f36-4d2c-9466-2b109b002ffb" />
+
+<img width="412" height="459" alt="image" src="https://github.com/user-attachments/assets/6902c14b-5e03-4e8c-9967-4c7f6d1c8c1d" />
 
