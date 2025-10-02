@@ -16,7 +16,7 @@ export default function SignupPage() {
   return (
     <main className="bg-gradient-to-br from-sky-100 to-slate-200 content-center pointer-events-auto py-10 px-5 h-screen overflow-y-auto">
       <div className="flex flex-col max-w-md mx-auto bg-slate-50 shadow-xl rounded-md p-10 space-y-4">
-        <h1 className="font-bold text-3xl text-center p-2">ToDo Sign Out</h1>
+        <h1 className="font-bold text-3xl text-center p-2">ToDo Sign Up</h1>
         <form className="flex flex-col" onSubmit={handleSubmit}>
           <input
             value={input}
